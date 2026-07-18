@@ -3,7 +3,7 @@
 ## 🚀 Project Overview
 This project transitions an exploratory data analysis (EDA) pipeline from Python into a production-ready, interactive Tableau BI dashboard. The objective is to analyze historical asset returns across dozens of fund categories to track risk profiles, isolate top alpha-generating individual assets, and visualize macroeconomic sector trends throughout 2024.
 
-* **Interactive Live Dashboard:** [[Tableau Public URL]](https://public.tableau.com/app/profile/shivaling.bidaragaddi/viz/MutualFundPerformanceAnalyticsDashboard/Dashboard1?publish=yes)
+* **Interactive Live Dashboard:**Interactive Live Dashboard:** [Click Here to View Dashboard](https://public.tableau.com/app/profile/shivaling.bidaragaddi/viz/MutualFundPerformanceAnalyticsDashboard/Dashboard1?publish=yes)
 * **Python Analysis Report:** [fund_performance_analysis.pdf](./fund_performance_analysis.pdf)
 * **Processed Dataset:** [performance_summary.csv](./performance_summary.csv)
 
