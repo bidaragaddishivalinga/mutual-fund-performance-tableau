@@ -22,7 +22,7 @@ Designed around institutional asset evaluation workflows (modeled after State St
   * `Monthly Mutual Fund Returns 2024.csv` (Raw Kaggle Dataset)
   * `performance_summary.csv` (Engineered Feature Matrix)
 * **Reporting Artifacts:** 
-  * `fund_performance_analysis.pdf` / `.html` (Automated Analytical Reports)
+  * `fund_performance_analysis.pdf` (Automated Analytical Report)
   * `Mutual Fund Performance Analytics Dashboard.twbx` (Tableau Master Pack)
 
 ---
@@ -37,7 +37,7 @@ Designed around institutional asset evaluation workflows (modeled after State St
 ---
 
 ### 2. Executive BI Dashboard Architecture (Tableau)
-The final interface leverages a standardized 2×2 analytical grid built on an automatic executive viewport configuration:
+The final interface leverages a standardized analytical grid built on an automatic executive viewport configuration:
 
 * **Category Performance Heatmap:** A high-level view showing month-over-month percentage returns across individual fund styles.
 * **Top 10 Funds Performance:** Granular horizontal bar chart isolating top-performing individual institutional assets.
@@ -52,11 +52,11 @@ Below are the primary analytical charts generated during the Python EDA phase:
 
 | Performance Heatmap | Return Distribution |
 | :---: | :---: |
-| ![Category Heatmap](Screenshots/heatmap_category.png) | ![Return Distribution](Screenshots/return_distribution.png) |
+| <img src="heatmap_category.png" width="400"/> | <img src="return_distribution.png" width="400"/> |
 
 | Top 10 Fund Ranking | Exception Flag Distribution |
 | :---: | :---: |
-| ![Top 10 Funds](Screenshots/top10_funds.png) | ![Exception Distribution](Screenshots/exception_distribution.png) |
+| <img src="top10_funds.png" width="400"/> | <img src="exception_distribution.png" width="400"/> |
 
 ---
 
@@ -71,17 +71,15 @@ Below are the primary analytical charts generated during the Python EDA phase:
 
 ```text
 Mutual-Fund-Performance-Analytics-Dashboard/
-├── Screenshots/
-│   ├── boxplot_category.png
-│   ├── category_comparison.png
-│   ├── exception_distribution.png
-│   ├── heatmap_category.png
-│   ├── monthly_trend.png
-│   ├── return_distribution.png
-│   └── top10_funds.png
 ├── Monthly Mutual Fund Returns 2024.csv
 ├── Mutual Fund Performance Analytics Dashboard.twbx
 ├── README.md
-├── fund_performance_analysis.html
+├── boxplot_category.png
+├── category_comparison.png
+├── exception_distribution.png
 ├── fund_performance_analysis.pdf
-└── performance_summary.csv
+├── heatmap_category.png
+├── monthly_trend.png
+├── performance_summary.csv
+├── return_distribution.png
+└── top10_funds.png
